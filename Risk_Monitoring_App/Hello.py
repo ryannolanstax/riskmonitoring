@@ -21,8 +21,6 @@ st.write("# Welcome to Stax Risk Monitoring")
 
 st.markdown(
     """
-    This calculator tiers different merchants
-
     **👈 Select an app from the sidebar** to get started
 
     If an app isn't working correctly, reach out to Ryan Nolan on
