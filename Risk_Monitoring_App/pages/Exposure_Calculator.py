@@ -12,7 +12,7 @@ import io
 import matplotlib.pyplot as plt  
 
 
-st.header('Exposure Fields')
+st.title("Risk Exposure Calculator")
 
 buffer = io.BytesIO()
 
