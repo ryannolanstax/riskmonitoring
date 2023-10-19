@@ -28,7 +28,7 @@ st.markdown(
 
 
     ### Want to learn more?
-    - Check out [SOP: Risk Monitoring](#)
+    - Check out [SOP: Risk Monitoring](https://docs.google.com/document/d/1gyLLXsHyOXZjq4eE8I0-TrTgSS9HGLTfcV1Dj0jocCU/edit)
 
 """
 )
