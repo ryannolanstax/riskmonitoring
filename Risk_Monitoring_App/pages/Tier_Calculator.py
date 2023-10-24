@@ -32,7 +32,7 @@ BankHistory = st.selectbox(
 MCCRisk = st.radio('What is the risk level associated with the MCC??', options=['5', '4', '3', '2', '1'], 
           horizontal=True)
 
-SignerCreditScore = st.radio('How old is the business?', options=['<550','551-579 or Unknown', '580-650', '651-750', '751-850'], 
+SignerCreditScore = st.radio('What is the signers credit score?', options=['<550','551-579 or Unknown', '580-650', '651-750', '751-850'], 
           horizontal=True)
 
 AvgReview = st.radio('What is the business average review score across all review platforms? ', options=['< 4.0 Stars', '> 4.0 Stars – 4.3 Stars', '> 4.3 Stars to 4.5 Stars OR less than 20 reviews across all review sites', \
@@ -69,14 +69,6 @@ Tiering = pd.DataFrame({'FinalTier': [final_score],
                             })
 
 st.write('The Final Tier of the Customer is: ', final_score)
-
-#Exposure Calc Fields
-#flow of this app sucks
-
-
-
-
-
 
 
 with pd.ExcelWriter(buffer, engine='xlsxwriter') as writer:
